@@ -387,6 +387,11 @@
 			<artifactId>zookeeper</artifactId>
 			<version>3.4.6</version>
 		</dependency>
+		<dependency>
+			<groupId>com.baidu.disconf</groupId>
+			<artifactId>disconf-client</artifactId>
+			<version>2.6.35</version>
+		</dependency>
 	</dependencies>
 
 </project>

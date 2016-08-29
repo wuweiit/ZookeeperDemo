@@ -18,6 +18,8 @@ public class MainTest {
         zkClient4subStat.create("/wuwei","123", CreateMode.PERSISTENT);
         zkClient4subStat.close();
 
+
+
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
