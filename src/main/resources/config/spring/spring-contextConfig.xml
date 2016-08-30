@@ -29,6 +29,13 @@
     </bean>
 
 
+
+
+    <bean id="socketIo" class="com.corundumstudio.socketio.SocketIOServer">
+
+    </bean>
+
+
  
 </beans>
     
