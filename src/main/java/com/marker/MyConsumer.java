@@ -24,7 +24,7 @@ public class MyConsumer extends Thread
         props.put("zookeeper.connect", "localhost:2181");
 
         //group 代表一个消费组
-        props.put("group.id", "jd-group2");
+        props.put("group.id", "jd-group");
 
         //zk连接超时
         props.put("zookeeper.session.timeout.ms", "4000");
@@ -38,6 +38,9 @@ public class MyConsumer extends Thread
 
         consumer = new KafkaConsumer(props);
     }
+
+
+
 
    public void run() {
         consumer.subscribe(Arrays.asList("chat"));
