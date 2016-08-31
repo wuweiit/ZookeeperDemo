@@ -34,9 +34,6 @@ public class DubboConsumerTest {
 	@Autowired
 	KafkaTemplate kafkaTemplate;
 
-	@Autowired
-	MessageChannel messageChannel;
-
     /**
      *
      * @throws Exception
@@ -44,8 +41,6 @@ public class DubboConsumerTest {
 	@Test public void test() throws Exception{
 
 
-
-		messageChannel.s.
 
 		for(int i=0; i<10000; i++){
 			kafkaTemplate.send("foo","hahahhahahha"+i);

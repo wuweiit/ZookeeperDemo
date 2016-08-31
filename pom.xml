@@ -256,8 +256,8 @@
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -409,6 +409,11 @@
 			<artifactId>kafka-clients</artifactId>
 			<version>0.10.0.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-streams</artifactId>
+			<version>0.10.0.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-kafka -->
 		<dependency>
 			<groupId>org.springframework.integration</groupId>
@@ -421,6 +426,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-messaging</artifactId>
             <version>4.3.2.RELEASE</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api -->
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.1</version>
         </dependency>
 
 	</dependencies>
