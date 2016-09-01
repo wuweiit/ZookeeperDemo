@@ -44,6 +44,7 @@ public class MyConsumer extends Thread
 
    public void run() {
         consumer.subscribe(Arrays.asList("chat"));
+       
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(1);
             for (ConsumerRecord<String, String> record : records) {

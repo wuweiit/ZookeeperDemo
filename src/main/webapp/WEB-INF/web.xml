@@ -19,7 +19,9 @@
   	<welcome-file-list>
 	    <welcome-file>cms</welcome-file>
   	</welcome-file-list>
-  
+	<listener>
+		<listener-class>ServerListener</listener-class>
+	</listener>
 
     <!--  Spring的ApplicationContext 载入 -->
 	<listener>
