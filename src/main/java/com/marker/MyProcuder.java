@@ -46,8 +46,8 @@ public class MyProcuder {
             String key = String.valueOf(messageNo);
             String data = "hello3 kafka message " + key;
 
-            producer.send(new ProducerRecord("foo2","123",data));
-//            System.out.println(data);
+            producer.send(new ProducerRecord("chat",data));
+            System.out.println(data);
             messageNo ++;
         }
     }
